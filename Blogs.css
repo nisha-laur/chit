@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+#page1{
+    height:100vh;
+    width:100vw;
+    margin:0px;
+    padding:0px;
+  background-color:   #B1AFFF;
+  
+    
+}
+.btn1{
+    position: absolute;
+width: 143px;
+height: 55px;
+font-family: 'Outfit';
+font-weight: 600;
+top: 41px;
+border: 2px solid #2E2D4B;
+  background-color: #B1AFFF;
+  border-radius: 80px;
+  color:  #2E2D4B;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn2{
+  position: absolute;
+width: 143px;
+height: 55px;
+font-family: 'Outfit';
+font-weight: 600;
+top: 41px;
+border: 2px solid #2E2D4B;
+background-color: #2E2D4B;
+border-radius: 80px;
+color: #B1AFFF ;
+padding: 14px 28px;
+font-size: 16px;
+cursor: pointer;
+}
+.btn2:hover{
+  background-color: #B1AFFF;
+  color:#2E2D4B;
+}
+
+.btn1:hover{
+    background-color: #2E2D4B;
+    color:#B1AFFF ;
+}
+.images2{
+  position: absolute;
+  top: 245px;
+  height: 315px;
+  width: 280px;
+  display: inline-block;
+}

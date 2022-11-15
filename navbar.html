@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit&display=swap">
+    <title>Navbar</title>
+    <style>
+       
+#navbar{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(58, 109, 109);
+    border-radius: 7px;
+    position: absolute;
+    z-index: 100;
+    top: 16px;
+}
+#hamburger{
+    position: relative;
+    z-index: 200;
+    height: 10px;
+    top: 7px;
+    left: 9px;
+}
+#exit{
+    position: relative;
+    z-index: 300;
+    height: 10px;
+    top: 7px;
+    left: -5px;
+visibility: hidden;
+}
+#menu{
+    height: 209px;
+    width: 185px;
+    background-color: rgb(58, 109, 109);
+    position: relative;
+    top: 100px;
+    left: 64px;
+    padding: 5px;
+    border-radius: 43px;
+    opacity: 0;
+}
+.menubar{
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+.menubar:hover{
+    color: rgb(117, 187, 188);
+}
+    </style>
+</head>
+<body>
+    
+
+
+<nav id="phone-nav">
+    <div id="navbar">
+<img id="hamburger" src="Images/hamburger.png">
+<img id="exit" src="Images/exit.png">
+    </div>
+
+<div id="menu">
+<h3 class="menubar">HOME</h3><hr>
+<h3 class="menubar">BLOGS</h3><hr>
+<h3 class="menubar">CONSULTANT</h3><hr>
+<h3 class="menubar">RESOURCES</h3>
+
+</div>
+</nav>
+<script src="navbar.js"></script>
+</body>
+</html>
